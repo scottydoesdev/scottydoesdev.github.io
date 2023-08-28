@@ -13,6 +13,7 @@ export default function SelfieLayout({ imageUrl }) {
           className="max-w-full"
           width={538}
           height={650}
+          priority
         />
         <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black" />
       </div>
