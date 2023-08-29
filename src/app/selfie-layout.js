@@ -15,7 +15,7 @@ export default function SelfieLayout({ imageUrl }) {
           height={650}
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent dark:to-black to-white" />
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent dark:to-black to-slate-200" />
       </div>
       <div className="items-center">
         <div className={`${fira_code.className} text-2xl md:text-4xl md:pr-12`}>{"hi. i'm david."}</div>

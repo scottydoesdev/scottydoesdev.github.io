@@ -4,13 +4,15 @@ import SelfieLayout from './selfie-layout'
 import Footer from './footer'
 import ThemeToggle from './theme-toggle'
 import { ThemeProvider } from './theme-context'
+import Separator from './separator'
 
 export default function Home() {
   return (
     <ThemeProvider>
-      <main className="bg-white dark:bg-black text-black dark:text-white h-screen">
-        <SelfieLayout imageUrl="/main-image.jpeg"/>
+      <main>
         <ThemeToggle />
+        <SelfieLayout imageUrl="/main-image.jpeg"/>
+        <Separator />
         <Footer />
       </main>
     </ThemeProvider>
