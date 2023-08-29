@@ -5,8 +5,8 @@ const fira_code = Fira_Code({ subsets: ['latin'] })
 
 export default function Footer() {
   return (
-    <div className={`${fira_code.className} absolute bottom-2 w-full flex justify-center items-center text-xs`}>
-      <span>
+    <div className={`${fira_code.className} absolute bottom-2 w-full flex text-xs`}>
+      <span className="w-full text-center">
         Created by David Scott using{' '}
         <CustomLink url="https://nextjs.org/" text="NextJS"/>
         {' '}and{' '}
