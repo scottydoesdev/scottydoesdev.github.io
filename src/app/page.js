@@ -10,9 +10,8 @@ export default function Home() {
   return (
     <ThemeProvider>
       <main>
-        <ThemeToggle />
         <SelfieLayout imageUrl="/main-image.jpeg"/>
-        <Separator />
+        
         <Footer />
       </main>
     </ThemeProvider>
